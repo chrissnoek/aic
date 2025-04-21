@@ -1,0 +1,40 @@
+{
+  "name": "@chrissnoek/gen-ai-commit",
+  "version": "1.0.0",
+  "description": "Generate clear AI-based commit messages from staged git changes",
+  "bin": {
+    "aic": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "commit",
+    "openai",
+    "ai",
+    "gpt"
+  ],
+  "author": "Chris Snoek",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "gpt-tokenizer": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
