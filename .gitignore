@@ -1,0 +1,27 @@
+# Node modules
+/node_modules/
+
+# TypeScript output (dist, build)
+/dist/
+/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
